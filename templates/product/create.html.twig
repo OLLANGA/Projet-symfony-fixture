@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Formulaire d'ajout</h1>
+
+    {{ form_start(formProduct) }}
+    {{ form_widget(formProduct) }}
+    <input type="submit" value="Créer le produit" class="btn btn-outline-success">
+    {{ form_start(formProduct) }}
+{% endblock %}
+
